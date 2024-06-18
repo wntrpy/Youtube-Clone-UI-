@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="../styles/video-preview.css" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/sidebar.css" />
+    <script src="../js/script.js"></script>
+  </head>
+
+  <body>
+    <!--<script>
+      // Display the viewport width and height
+      alert(
+        "Width: " +
+          window.innerWidth +
+          "px\nHeight: " +
+          window.innerHeight +
+          "px"
+      );
+    </script> -->
+
+    <div class="header">
+      <!-- Header content -->
+      <div class="left-group">
+        <img
+          src="../img/icons/hamburger-menu.svg"
+          alt=""
+          class="hamburger-pic"
+        />
+        <img src="../img/icons/youtube-logo.svg" alt="" class="youtube-pic" />
+      </div>
+
+      <div class="middle-group">
+        <input type="text" class="search-bar" placeholder="Search" />
+        <button class="search-button">
+          <img src="../img/icons/search.svg" alt="" class="search-pic" />
+        </button>
+        <button class="mic-button">
+          <img
+            src="../img/icons/voice-search-icon.svg"
+            alt=""
+            class="mic-pic"
+          />
+        </button>
+      </div>
+
+      <div class="right-group">
+        <img src="../img/icons/upload.svg" alt="" class="video-plus" />
+        <img src="../img/icons/notifications.svg" alt="" class="notification" />
+        <img src="../img/karina.jpg" alt="" class="profile-picture" />
+      </div>
+      <!-- end of righcontainer -->
+    </div>
+
+    <div class="sidebar" id="sidebar">
+      <!-- Sidebar items will be inserted here -->
+      <div class="side-row1" id="side-row1"></div>
+
+      <div class="side-row2" id="side-row2" style="margin-top: 10px">
+        <div class="item-container">
+          <p class="side-text" style="margin-right: 7px">You</p>
+          <div class="side-pic" style="display: flex; align-items: center">
+            <img src="../img/icons/arrow.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="side-row3" id="side-row3" style="margin-top: 10px">
+        <div class="item-container">
+          <p class="subscriptions" style="font-weight: 600; font-size: 18px">
+            Subscriptions
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="video-grid-container" id="video-grid">
+      <!-- Video previews will be inserted here -->
+    </div>
+  </body>
+</html>
