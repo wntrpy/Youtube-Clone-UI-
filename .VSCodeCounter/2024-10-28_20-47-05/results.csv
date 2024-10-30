@@ -1,0 +1,34 @@
+"filename", "language", "Markdown", "CSS", "JavaScript", "HTML", "XML", "comment", "blank", "total"
+"d:\vscode projs\web\Youtube Clone\README.md", "Markdown", 1, 0, 0, 0, 0, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\html\main.html", "HTML", 0, 0, 0, 87, 0, 16, 12, 115
+"d:\vscode projs\web\Youtube Clone\html\templates\filter-items.html", "HTML", 0, 0, 0, 11, 0, 0, 1, 12
+"d:\vscode projs\web\Youtube Clone\html\templates\side-bar-item.html", "HTML", 0, 0, 0, 16, 0, 0, 1, 17
+"d:\vscode projs\web\Youtube Clone\html\templates\side-bar-subscriptions.html", "HTML", 0, 0, 0, 22, 0, 0, 1, 23
+"d:\vscode projs\web\Youtube Clone\html\templates\tooltip.html", "HTML", 0, 0, 0, 11, 0, 1, 1, 13
+"d:\vscode projs\web\Youtube Clone\html\templates\video-preview-tooltip.html", "HTML", 0, 0, 0, 0, 0, 0, 1, 1
+"d:\vscode projs\web\Youtube Clone\html\templates\video-preview.html", "HTML", 0, 0, 0, 59, 0, 0, 5, 64
+"d:\vscode projs\web\Youtube Clone\img\icons\arrow.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\hamburger-menu.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\history.svg", "XML", 0, 0, 0, 0, 1, 0, 2, 3
+"d:\vscode projs\web\Youtube Clone\img\icons\home.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\liked-videos.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\notifications.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\playlists.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\search.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\subscriptions.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\upload.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\voice-search-icon.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\watch later.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\your channel.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\your clips.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\your videos.svg", "XML", 0, 0, 0, 0, 1, 0, 0, 1
+"d:\vscode projs\web\Youtube Clone\img\icons\youtube-apps.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\img\icons\youtube-logo.svg", "XML", 0, 0, 0, 0, 1, 0, 1, 2
+"d:\vscode projs\web\Youtube Clone\js\script.js", "JavaScript", 0, 0, 333, 0, 0, 2, 60, 395
+"d:\vscode projs\web\Youtube Clone\styles\filter-container.css", "CSS", 0, 15, 0, 0, 0, 0, 1, 16
+"d:\vscode projs\web\Youtube Clone\styles\general.css", "CSS", 0, 14, 0, 0, 0, 0, 3, 17
+"d:\vscode projs\web\Youtube Clone\styles\header.css", "CSS", 0, 164, 0, 0, 0, 6, 38, 208
+"d:\vscode projs\web\Youtube Clone\styles\sidebar.css", "CSS", 0, 97, 0, 0, 0, 1, 19, 117
+"d:\vscode projs\web\Youtube Clone\styles\tooltip.css", "CSS", 0, 27, 0, 0, 0, 0, 9, 36
+"d:\vscode projs\web\Youtube Clone\styles\video-preview.css", "CSS", 0, 122, 0, 0, 0, 2, 48, 172
+"Total", "-", 1, 439, 333, 206, 17, 28, 213, 1237

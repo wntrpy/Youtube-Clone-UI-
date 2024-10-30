@@ -4,43 +4,61 @@
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 15px;
   row-gap: 14px;
-
+  
 
   /*1st CHILD of main container*/
   .video-preview{
     cursor: pointer;
+    position: relative;
+    z-index: 0;
 
+    .thumbnail-v{
+      position: relative;
+    }
 
     .thumbnail {
       width: 100%;
       margin-top: 20px;
       margin-bottom: 10px;
       border-radius: 10px;
+      position: relative;
+
+    }
+
+    .duration{
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      position: absolute;
+      padding: 5px;
+      right: 10px;
+      bottom: 24px;
+      border-radius:5px;
+      font-size: 12px;
+      font-weight:600;
     }
 
 
     .content-info-grid {
       display: grid;
       grid-template-columns: 50px 1fr;
+      z-index: 0;
 
       .channel-pic{/* 50pxr */
+       
 
         .logo {
           width: 40px;
-          border-radius: 20px;
+          border-radius: 50%;
         }
       }
 
       .text-detail-h{ /* 1fr */
-      
-
-        
+    
         .title-video-p {
           font-size: 14px;
           font-weight: 500;
           line-height: 20px;
           margin-bottom: 12px;
-        
           overflow: hidden;
           text-overflow: ellipsis;
           display: -webkit-box;
@@ -61,7 +79,31 @@
   }
 }  
 
-@media (max-width: 1872px) {
+.video-prev-tooltip{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 200px;
+  padding: 10px;
+  border-radius: 15px;
+  gap: 15px;
+  z-index: 300;
+  background-color: white;
+  position: absolute;
+  bottom: -20px;
+  left: 10px;
+  display: none;
+}
+
+
+
+.channel-pic:hover .video-prev-tooltip{
+  display: flex;
+}
+
+
+@media (max-width: 1912px) {
   .video-grid-container{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
@@ -90,8 +132,9 @@
   }
 
   body{
-    padding-left: 250px;
-    padding-right: 0px;
+    padding-left: 200px;
+    padding-right: 40px;
+
   }
 }
 
@@ -100,9 +143,6 @@
     grid-template-columns: 1fr 1fr;
   }
 }
-
-
-
 
 @media (max-width: 640px) {
   .video-grid-container{

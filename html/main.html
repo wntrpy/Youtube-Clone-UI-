@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
+
     <link rel="stylesheet" href="../styles/video-preview.css" />
     <link rel="stylesheet" href="../styles/general.css" />
     <link rel="stylesheet" href="../styles/header.css" />
     <link rel="stylesheet" href="../styles/sidebar.css" />
+    <link rel="stylesheet" href="../styles/filter-container.css" />
+    <link rel="stylesheet" href="../styles/tooltip.css" />
     <script src="../js/script.js"></script>
   </head>
 
   <body>
-    <!--<script>
+    <!---<script>
       // Display the viewport width and height
       alert(
         "Width: " +
@@ -23,7 +26,7 @@
       );
     </script> -->
 
-    <div class="header">
+    <header class="header">
       <!-- Header content -->
       <div class="left-group">
         <img
@@ -31,13 +34,24 @@
           alt=""
           class="hamburger-pic"
         />
-        <img src="../img/icons/youtube-logo.svg" alt="" class="youtube-pic" />
+        <div class="yt-container">
+          <a href="https://www.youtube.com/">
+            <img
+              src="../img/icons/youtube-logo.svg"
+              alt=""
+              class="youtube-pic"
+              title="Youtube home"
+            />
+          </a>
+        </div>
       </div>
 
       <div class="middle-group">
         <input type="text" class="search-bar" placeholder="Search" />
         <button class="search-button">
           <img src="../img/icons/search.svg" alt="" class="search-pic" />
+          <div id="header-tooltipBox-1"></div>
+          <!-- Tooltip container -->
         </button>
         <button class="mic-button">
           <img
@@ -45,19 +59,37 @@
             alt=""
             class="mic-pic"
           />
+          <div id="header-tooltipBox-2"></div>
+          <!-- Tooltip container -->
         </button>
       </div>
 
       <div class="right-group">
-        <img src="../img/icons/upload.svg" alt="" class="video-plus" />
-        <img src="../img/icons/notifications.svg" alt="" class="notification" />
+        <div class="video-plus-container">
+          <img src="../img/icons/upload.svg" alt="" class="video-plus" />
+          <div id="header-tooltipBox-3"></div>
+          <!-- Tooltip container -->
+        </div>
+
+        <div class="notification-container">
+          <img
+            src="../img/icons/notifications.svg"
+            alt=""
+            class="notification"
+          />
+          <div class="notification-counts">3</div>
+          <div id="header-tooltipBox-4"></div>
+          <!-- Tooltip container -->
+        </div>
+
         <img src="../img/karina.jpg" alt="" class="profile-picture" />
       </div>
       <!-- end of righcontainer -->
-    </div>
+    </header>
 
-    <div class="sidebar" id="sidebar">
-      <!-- Sidebar items will be inserted here -->
+    <div class="filter-container" id="filter-container"></div>
+
+    <nav class="sidebar" id="sidebar">
       <div class="side-row1" id="side-row1"></div>
 
       <div class="side-row2" id="side-row2" style="margin-top: 10px">
@@ -76,10 +108,8 @@
           </p>
         </div>
       </div>
-    </div>
+    </nav>
 
-    <div class="video-grid-container" id="video-grid">
-      <!-- Video previews will be inserted here -->
-    </div>
+    <main class="video-grid-container" id="video-grid"></main>
   </body>
 </html>

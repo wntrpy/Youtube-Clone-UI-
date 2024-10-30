@@ -1,0 +1,35 @@
+
+.yt-container .tooltip, /*header*/
+.search-button .tooltip, /*header*/
+.mic-button .tooltip, /*header*/
+.video-plus-container .tooltip, /*header*/
+.notification-container .tooltip /*header*/
+{ 
+  position: absolute;
+  font-size: 12px;
+  bottom: -35px;
+  display: none;
+  pointer-events: none;
+  white-space: nowrap;
+  transition: all 1s ease;
+
+}
+
+
+.search-button:hover .tooltip, /*header*/
+.mic-button:hover .tooltip, /*header*/
+.video-plus-container:hover .tooltip, /*header*/
+.notification-container:hover .tooltip, /*header*/
+.yt-container:hover .tooltip
+{
+  display: block;
+}
+
+
+
+
+.search-button, .mic-button, .video-plus-container, .notification-container, .yt-container{ /*para pantay sa button ung tooltips*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -2,8 +2,16 @@
   margin: 0px;
   padding: 0px;
   font-family: Roboto, Arial;
+
 }
 
 body{
   padding-top: 70px;
+}
+
+.tooltip{
+  background-color: gray;
+  color: white;
+  padding: 7px;
+  border-radius: 5px;
 }

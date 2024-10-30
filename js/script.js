@@ -26,189 +26,293 @@ const sidebarItems3 = [
 ];
 
 
+const filterItems = [
+  {text: 'All'}, 
+  {text: 'Music'}, 
+  {text: 'Nayeon'}, 
+  {text: 'K-Pop'}, 
+  {text: 'Weight'}, 
+  {text: 'Mixes'}, 
+  {text: 'Gaming'}, 
+  {text: 'Live'}, 
+  {text: 'News'}, 
+  {text: 'Sports'}
+];
+
+const tooltipItems = [
+  //headers
+  {text: 'Search'},
+  {text: 'Search with your voice'},
+  {text: 'Create'},
+  {text: 'Notifications'},
+]
+
+
 const videoPreviews = [
   {
     thumbnail: '../img/thumbnails/aespa.webp',
+    duration: '3:00',
     channelLogo: '../img/user-icons/koco.jpg',
     title: 'aespa - Armageddon | Show! Music Core EP857 | KOCOWA+',
     creator: 'KOCOWA TV',
     views: '3.4M views',
-    timeAgo: '6 months ago'
+    timeAgo: '6 months ago',
+    subscriber: '15M subscriber'
   },
   {
     thumbnail: '../img/thumbnails/haerin.webp',
+    duration: '3:00',
     channelLogo: '../img/user-icons/koco.jpg',
     title: '[페이스캠4K] 뉴진스 해린 \'How Sweet\' (NewJeans HAERIN FaceCam) @SBS Inkigayo 240526',
     creator: 'KOCOWA TV',
     views: '3.4M views',
-    timeAgo: '6 months ago'
+    timeAgo: '6 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/twice.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/dingo.jpg',
     title: '트와이스(TWICE)의 킬링보이스를 라이브로!ㅣOOH-AHH하게, CHEER UP, TT, KNOCK KNOCK, Heart shaker, YES or YES, ONE SPARK',
     creator: '딩고 뮤직 / dingo music',
     views: '22.1M views',
-    timeAgo: '3 months ago'
+    timeAgo: '3 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-lessera.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/lessera.jpg',
     title: '[LENIVERSE] EP.41 And Then There Were Five Part 1',
     creator: 'LE SSERAFIM',
     views: '131K views',
-    timeAgo: '17 hours ago'
+    timeAgo: '17 hours ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-samsulek.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/samsuler-usericon.jpg',
     title: 'Spring Cut Day 72',
     creator: 'Sam Sulek',
     views: '139K views',
-    timeAgo: '1 day ago'
+    timeAgo: '1 day ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },  {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },  {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
 
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
   {
     thumbnail: '../img/thumbnails/thumb-kiss.jpg',
+    duration: '3:00',
+
     channelLogo: '../img/user-icons/kbs-usericon.jpg',
     title: 'Midas Touch - KISS OF LIFE (키오프) [Music Bank] | KBS WORLD TV 240405',
     creator: 'KBS WORLD TV',
     views: '742K views',
-    timeAgo: '2 months ago'
+    timeAgo: '2 months ago',
+    subscriber: '15M subscriber'
+
   },
 ];
 
@@ -259,10 +363,32 @@ function populateVideoGrid() {
   });
 }
 
+function populateFilterBox() {
+  loadTemplate('../html/templates/filter-items.html').then(template => {
+    filterItems.forEach(item => {
+      insertTemplate(template, item, 'filter-container');
+    });
+  });
+}
+
+
+function tooltipBox() {
+  loadTemplate('../html/templates/tooltip.html').then(template => {
+    let tooltipId = 1; // Starting ID
+    tooltipItems.forEach(item => {
+      const dataWithId = { ...item, id: tooltipId++ }; // Assign a unique ID to each tooltip
+      insertTemplate(template, dataWithId, `header-tooltipBox-${tooltipId - 1}`); // Use the incremented ID for the container ID
+    });
+  });
+}
+
+
 document.addEventListener('DOMContentLoaded', () => {
   populateSidebar1();
   populateSidebar2();
   populateSidebar3();
+  populateFilterBox();
   populateVideoGrid();
+  tooltipBox();
 });
 

@@ -1,0 +1,68 @@
+Date : 2024-10-28 20:47:05
+Directory : d:\vscode projs\web\Youtube Clone
+Total : 32 files,  996 codes, 28 comments, 213 blanks, all 1237 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| CSS        |          6 |        439 |          9 |        118 |        566 |
+| JavaScript |          1 |        333 |          2 |         60 |        395 |
+| HTML       |          7 |        206 |         17 |         22 |        245 |
+| XML        |         17 |         17 |          0 |         12 |         29 |
+| Markdown   |          1 |          1 |          0 |          1 |          2 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                         | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                            |         32 |        996 |         28 |        213 |      1,237 |
+| . (Files)                                                                    |          1 |          1 |          0 |          1 |          2 |
+| html                                                                         |          7 |        206 |         17 |         22 |        245 |
+| html (Files)                                                                 |          1 |         87 |         16 |         12 |        115 |
+| html\templates                                                               |          6 |        119 |          1 |         10 |        130 |
+| img                                                                          |         17 |         17 |          0 |         12 |         29 |
+| img\icons                                                                    |         17 |         17 |          0 |         12 |         29 |
+| js                                                                           |          1 |        333 |          2 |         60 |        395 |
+| styles                                                                       |          6 |        439 |          9 |        118 |        566 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                     | language   | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\vscode projs\web\Youtube Clone\README.md                                  | Markdown   |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\html\main.html                             | HTML       |         87 |         16 |         12 |        115 |
+| d:\vscode projs\web\Youtube Clone\html\templates\filter-items.html           | HTML       |         11 |          0 |          1 |         12 |
+| d:\vscode projs\web\Youtube Clone\html\templates\side-bar-item.html          | HTML       |         16 |          0 |          1 |         17 |
+| d:\vscode projs\web\Youtube Clone\html\templates\side-bar-subscriptions.html | HTML       |         22 |          0 |          1 |         23 |
+| d:\vscode projs\web\Youtube Clone\html\templates\tooltip.html                | HTML       |         11 |          1 |          1 |         13 |
+| d:\vscode projs\web\Youtube Clone\html\templates\video-preview-tooltip.html  | HTML       |          0 |          0 |          1 |          1 |
+| d:\vscode projs\web\Youtube Clone\html\templates\video-preview.html          | HTML       |         59 |          0 |          5 |         64 |
+| d:\vscode projs\web\Youtube Clone\img\icons\arrow.svg                        | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\hamburger-menu.svg               | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\history.svg                      | XML        |          1 |          0 |          2 |          3 |
+| d:\vscode projs\web\Youtube Clone\img\icons\home.svg                         | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\liked-videos.svg                 | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\notifications.svg                | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\playlists.svg                    | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\search.svg                       | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\subscriptions.svg                | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\upload.svg                       | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\voice-search-icon.svg            | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\watch later.svg                  | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\your channel.svg                 | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\your clips.svg                   | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\your videos.svg                  | XML        |          1 |          0 |          0 |          1 |
+| d:\vscode projs\web\Youtube Clone\img\icons\youtube-apps.svg                 | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\img\icons\youtube-logo.svg                 | XML        |          1 |          0 |          1 |          2 |
+| d:\vscode projs\web\Youtube Clone\js\script.js                               | JavaScript |        333 |          2 |         60 |        395 |
+| d:\vscode projs\web\Youtube Clone\styles\filter-container.css                | CSS        |         15 |          0 |          1 |         16 |
+| d:\vscode projs\web\Youtube Clone\styles\general.css                         | CSS        |         14 |          0 |          3 |         17 |
+| d:\vscode projs\web\Youtube Clone\styles\header.css                          | CSS        |        164 |          6 |         38 |        208 |
+| d:\vscode projs\web\Youtube Clone\styles\sidebar.css                         | CSS        |         97 |          1 |         19 |        117 |
+| d:\vscode projs\web\Youtube Clone\styles\tooltip.css                         | CSS        |         27 |          0 |          9 |         36 |
+| d:\vscode projs\web\Youtube Clone\styles\video-preview.css                   | CSS        |        122 |          2 |         48 |        172 |
+| Total                                                                        |            |        996 |         28 |        213 |      1,237 |
++------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

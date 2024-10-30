@@ -9,11 +9,49 @@
     <div class="video-preview">
       <div class="thumbnail-v">
         <img class="thumbnail" src="{{thumbnail}}" alt="" />
+        <div class="duration">{{duration}}</div>
       </div>
+
       <div class="content-info-grid">
         <div class="channel-pic">
           <img class="logo" src="{{channelLogo}}" alt="" />
+
+          <div class="video-prev-tooltip">
+            <div class="channel-pic">
+              <img
+                class="logo"
+                src="{{channelLogo}}"
+                alt=""
+                style="width: 40px; border-radius: 50%"
+              />
+            </div>
+
+            <div
+              class="info-tooltip-creator"
+              style="
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                overflow: hidden;
+              "
+            >
+              <p
+                class="content-creator-name"
+                style="
+                  text-overflow: ellipsis;
+                  overflow: hidden;
+                  white-space: nowrap;
+                "
+              >
+                {{creator}}
+              </p>
+              <p class="subcscriber-count" style="font-size: 12px; color: gray">
+                {{subscriber}}
+              </p>
+            </div>
+          </div>
         </div>
+
         <div class="text-detail-h">
           <p class="title-video-p">{{title}}</p>
           <p class="content-creator-name">{{creator}}</p>

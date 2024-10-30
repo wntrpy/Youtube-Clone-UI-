@@ -1,95 +1,117 @@
-.sidebar{
+.sidebar {
   position: fixed;
-  top: 75px;
+  top: 60px;
   left: 0;
   bottom: 0;
   width: 200px;
-  padding: 0px 10px 0px 10px;
-
+  padding: 0px 10px;
   overflow-y: hidden;
   background-color: white;
-  transition: overflow-y 0.3s ease;
+  z-index: 2;
 }
 
-.sidebar:hover{
+.sidebar a{
+  text-decoration: none;
+  color: black;
+  
+}
+
+.sidebar:hover {
   overflow-y: auto;
 }
 
-.side-row1, .side-row2{
-  border-bottom: 1px rgb(228, 228, 228) solid;
+.side-row1,
+.side-row2 {
+  border-bottom: 1px solid rgb(228, 228, 228);
 }
 
-.side-pic{
+.side-pic {
   width: 30px;
   height: 30px;
   margin-right: 20px;
-
-  fill: black;
+  flex-shrink: 0; /*maintain yung size*/
+  border-radius: 50%;
 }
 
-
-
-.item-container{
+.item-container {
   display: flex;
   align-items: center;
   padding: 10px;
-  transform: all 0.5s;
   cursor: pointer;
-  flex-wrap: wrap;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
+.item-container .tooltip {
+  position: absolute;
+  font-size: 12px;
+  pointer-events: none;
+  white-space: nowrap;
+  right: 5px;
+  bottom: -5px;
+  display: none;
+}
 
+.item-container:hover .tooltip {
+  display: block;
+}
 
+.side-text {
+  font-size: 14px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; /*para nde mag wrap or mag create ng second line*/
+  flex-grow: 1; /*takes up remaining space*/
+}
 
-.item-container:hover{
+.item-container:hover {
   border-radius: 15px;
-  background-color: rgb(228, 228, 228);
+  background-color: #eeeeee;
 }
 
-@media (max-width: 1350px) {
-
-  body{
+/* Media Queries */
+@media (max-width: 1308px) {
+  body {
     padding-left: 120px;
   }
 
-  p{
-    font-size: 13px;
+  p {
+    font-size: 11px;
   }
 
-
-  .sidebar{
+  .sidebar {
     width: 80px;
   }
 
-  .item-container {
-    flex-direction: column; 
-    align-items: flex-start; 
-  }
-
-  .side-row1{
+  .side-row1 {
     border: none;
   }
 
   .item-container {
-    flex-direction: column; 
-    align-items: flex-start; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
-  .side-row2, .side-row3{
+  .side-row2,
+  .side-row3 {
     display: none;
   }
 
-
+  .side-pic-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 712px) {
-  .sidebar{
+  .sidebar {
     display: none;
   }
 
-  body{
+  body {
     padding-left: 25px;
   }
-
 }
-

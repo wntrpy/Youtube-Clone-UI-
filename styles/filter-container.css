@@ -1,0 +1,16 @@
+.filter-container{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.filter-item-container{
+  padding: 5px 10px;
+  background-color: rgb(242, 243, 243);
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 550;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
